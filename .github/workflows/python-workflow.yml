@@ -6,6 +6,7 @@ jobs:
     strategy:
       matrix:
         version: [v14.21.3, v16.20.2, v17.9.1]
+        npm_version: [v7.7.6,v8.19.4,v8.11.0]
         platform: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.platform }}
     steps:
