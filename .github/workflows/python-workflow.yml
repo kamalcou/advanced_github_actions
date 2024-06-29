@@ -1,7 +1,6 @@
-name: Matrix with python
+name: Matrix with Node.js
 on:
   workflow_dispatch:
-    
 jobs:
   build:
     strategy:
